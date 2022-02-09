@@ -60,7 +60,7 @@ int sssp() {
 
             if (dist[v] > dist[u] + w) dist[v] = dist[u] + w, q.emplace(v, dist[v]);
         }
-
-
     }
+
+    return dist[1000];
 }
